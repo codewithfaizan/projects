@@ -1,0 +1,17 @@
+{
+  "name": "base64",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "loading-cli": "^1.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}

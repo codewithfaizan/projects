@@ -1,0 +1,159 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
+.button1{
+    height: 37px;
+    background-color: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff;
+}
+
+.button1:hover{
+color: black;
+}
+
+.dark{
+  padding: 15px;
+  background-color: #354235;
+  color:#ffffff;
+   margin-top:10px;
+   margin-bottom:10px;
+}
+
+/* Header */
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding: 10px 20px 30px 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+color:#e8491d;
+font-weight: bold;
+}
+
+header a:hover{
+color:#cccccc;
+font-weight:bold;
+}
+
+/* showcase */
+#showcase{
+    min-height: 350px;
+    background:url('./images/ux-indonesia-qC2n6RQU4Vw-unsplash.jpg') no-repeat 0   ; 
+    text-align: center;
+    
+}
+
+#showcase h1{
+margin-top:100px;
+font-size: 55px;
+margin-bottom:10px ;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+#newsletter{
+    padding: 15px;
+    color:#ffffff;
+    background-color: #35424a;
+}
+
+#newsletter h1{
+float: left;
+}
+#newsletter form{
+float: right;
+margin-top:15px;
+}
+#newsletter input[type="email"]{
+padding:4px 0px;
+height: 25px;
+width:250px;
+}
+
+/* boxes */
+#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+    float:left;
+    width:30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img
+{ 
+  width:100px;
+} 
+
+aside#sidebar {
+  float: right;
+  margin-top:10px;
+  width:30%;
+}
+
+article#main-col{
+  float:left;
+  width:65%
+
+}
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color: #e8491d;
+  overflow: auto;
+  text-align: center;
+}
+
+

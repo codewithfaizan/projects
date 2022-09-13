@@ -13,13 +13,9 @@
         <h2 class="logo">Travel</h2>
         <div class="toggle"></div>
       </header>
+
       <div class="vid">
-        <video
-          src="/websites/video-website/images/explore.mp4"
-          muted
-          loop
-          autoplay
-        ></video>
+        <video src="./images/Pexels Videos 1723017.mp4"></video>
       </div>
 
       <div class="overlay"></div>
@@ -36,9 +32,15 @@
       </div>
 
       <ul class="social">
-        <li><img src="" alt="instagram" /></li>
-        <li><img src="" alt="linkedin" /></li>
-        <li><img src="" alt="twitter" /></li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"/></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"/></a>
+        </li>
+        <li>
+          <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"/></a>
+        </li>
       </ul>
     </section>
 
@@ -52,4 +54,13 @@
       </ul>
     </div>
   </body>
+  <script>
+     const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+  </script>
 </html>
